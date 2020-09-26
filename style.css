@@ -145,7 +145,7 @@ article.article2 p {
 
 .background-arrow {
     width: 90px;
-    position: relative;z-index: 2;
+    position: relative;
     animation-name: fade;
     animation-duration: 0.5s;
     animation-iteration-count: infinite;
