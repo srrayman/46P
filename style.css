@@ -1,0 +1,485 @@
+html {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    background-color: #27a7de;
+    color: white;
+}
+
+section.PastCampaigns a:hover {
+    padding: 0 10px 0;
+}
+
+section.get-in-touch a.linkfont:hover {
+    background-color: white;
+    color: #27a7de;
+}
+
+body {
+    width: 100%;
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+}
+
+div.link-styling:hover {
+    background-color: #27a7de;
+    color: white;
+}
+
+footer {
+    padding: 10px 0 10px;
+}
+
+footer small{
+    color: #262262;
+    margin-bottom: 40px;
+}
+header {
+    background-color: white;
+    width: 100vw;
+    position: fixed;
+    z-index: 2;
+}
+/* header {
+    position: fixed;
+    padding-left: 20px;
+} */
+h1 {
+    font-family: 'Shrikhand', cursive;
+    font-size: 2rem;
+    font-weight: 300;
+    color: #27a7de;
+    letter-spacing: 0.05rem;
+    margin: 30px auto 40px;
+    width: 70vw;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Shrikhand', cursive;
+    font-size: 2rem;
+    color: #262262;
+    letter-spacing: 0.05rem;
+    margin-bottom: 0;
+    width: 70vw;
+    text-align: center;
+    margin: 30px auto;
+    line-height: 2rem;
+}
+
+h3 {
+    font-size: 2rem;
+    color: #27a7de;
+    margin: 15px 0 0;
+}
+
+li {
+    list-style: none;
+}
+
+main {
+    background-color: #262262;
+    padding: 150px 30px 50px;
+    text-align: center;
+}
+
+p {
+    color: #262262;
+    font-size: 0.9rem;
+    width: 70vw;
+    text-align: left;
+    margin-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p.goal-text-mobile {
+    display: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+.article1 {
+    /* border-bottom: 1px #27a7de solid; */
+    /* padding:0 0 50px; */
+    width: 50%;
+}
+
+article.article1 p {
+    width: 90%;
+    position: relative;
+    top: -50px;
+}
+
+.article2 {
+    width: 50%; 
+    margin-left: 40px;
+    padding-left: 60px;
+    border-left: 1px #262262 solid;
+}
+
+article.article2 p {
+    width: 90%;
+    position: relative;
+    top: -50px;
+}
+
+.article-containers {
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.background-arrow {
+    width: 90px;
+    position: relative;z-index: 2;
+    animation-name: fade;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    }
+
+@keyframes fade {
+from {opacity: 0}
+to {opacity: 1}
+from {opacity: 0}
+}
+.campaign-description-container {
+    position: relative;
+    top: 0;
+}
+
+.description-text {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.flex-parent {
+    display: flex;
+    justify-content: space-around;
+    width: 70vw;
+    margin: 0 auto;
+    align-items: center;
+}
+
+footer a {
+    color:  #262262;
+    font-weight: 700;
+}
+
+footer p {
+    text-align: center;
+}
+
+.goal-text {
+    color: #fff;
+    text-align: right;
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+.horizontal .progress-bar {
+    float: left;
+    height: 45px;
+    width: 100%;
+    padding: 12px 0;
+}
+  
+.horizontal .progress-track {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background: #fff;
+}
+
+.horizontal .progress-fill {
+    position: relative;
+    background: #262262;
+    height: 100px;
+    width: 67%;
+    color: #fff;
+    text-align: center;
+    font-weight: 800;
+    font-size: 1.5rem;
+    line-height: 100px;
+}
+
+.icon {
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+.icon1 {
+    border-right: 1px #27a7de solid;
+    padding-right: 40px;
+}
+
+.icon2 {
+    border-right: 1px #27a7de solid;
+    padding-right: 40px;
+}
+
+
+.icon-container {
+    width: 180px;
+    text-align: center;
+    margin: 20px auto 40px;
+}
+
+.icon-container p {
+    font-weight: 800;
+    width: 70%;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    font-size: 1rem;
+    margin: 0 auto;
+    /* margin-bottom: 30px; */
+}
+.linkfont {
+    font-family: 'Shrikhand', cursive;
+    font-size: 1.5rem;
+    color: #27a7de;
+    letter-spacing: 0.05rem;
+    border: 1px solid #27a7de;
+    text-decoration: none;
+    padding: 5px 30px;
+    margin: 0 auto;
+}
+.link-styling {
+    font-family: 'Shrikhand', cursive;
+    font-size: 1.5rem;
+    width: 400px;
+    background-color: #262262;
+    color: #27a7de;
+    letter-spacing: 0.05rem;
+    border: 1px solid #27a7de;
+    text-decoration: none;
+    padding: 5px 30px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 150px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+main p {
+    font-size: 1.25rem;
+    color: white;
+    font-size: 800;
+    width: 70vw;
+    text-align: center;
+}
+
+section.CurrentCampaigns h3 {
+    margin-left: 10px;
+}
+section.get-in-touch {
+    padding-top: 70px;
+    padding-bottom: 80px;
+    background-color: #27a7de;
+}
+
+section.get-in-touch .linkfont{
+    color: white;
+    border: white 1px solid;
+}
+
+
+section.goalsChart {
+    background-color: #1b75b9;
+    margin-top: 50px;
+    padding: 100px 80px 45px;
+}
+
+section.PastCampaigns {
+    background-color: #262262;
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+
+section.PastCampaigns .linkfont{
+    color: white;
+}
+
+section.PastCampaigns h2{
+    color: #27a7de;
+    letter-spacing: 0.05rem;
+}
+
+section.PastCampaigns h3{
+    color: #27a7de;
+    font-size: 1.5rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+section.PastCampaigns li{
+    margin-top: 10px;
+}
+
+section.CurrentCampaigns p {
+    margin-bottom: 10px;
+    /* width: 70vw; */
+}
+
+span.raised-amount-mobile {
+    display: none;
+}
+
+.title-header {
+    margin-bottom: 60px;
+}
+
+/* tablet view-portrait */
+@media only screen and (max-width: 768px) {
+
+p {
+    margin-top: 20px;
+}
+.article-containers {
+    display: block;
+}
+.article1 {
+    border-bottom: 1px #262262 solid;
+    margin: 15px 0 0;
+    padding-bottom: 40px;
+    width: 100%;
+}
+.article2 {
+    border-left: none;
+    margin: 50px 0 0;
+    width: 100%;
+    padding-left: 0;
+}
+.flex-parent {
+    flex-direction: column;
+    justify-content: center;
+}
+
+.icon1 {
+    border-right: none;
+    border-bottom: 1px #27a7de solid;
+    padding-bottom: 25px;
+    padding-right: 0;
+}
+
+.icon2 {
+    border-right: none;
+    border-bottom: 1px #27a7de solid;
+    padding-bottom: 25px;
+    padding-right: 0;
+}
+
+.icon-container {
+    width: 180px;
+    text-align: center;
+    margin: 20px auto 20px;
+}
+
+p.goal-text {
+    text-align: right;
+}
+
+section.goalsChart {
+    padding-top: 50px;
+    text-align: center;
+}
+
+
+}
+
+/* iphone */
+@media only screen and (max-width: 480px) {
+
+article.article1 p {
+        width: 90%;
+}
+
+article.article2 p {
+    width: 90%;
+}
+
+div.progress-track {
+    margin: 10px;
+}
+h1 {
+    margin: 0 auto 0;
+    line-height: 1.85rem;
+}
+h2 {
+    margin-bottom: 0;
+}
+
+p.goal-text-mobile {
+    display: block;
+    font-weight: 800;
+    font-size: 1.5rem;
+    color: white;
+    text-align: right;
+}
+
+p.goal-text {
+    display: none;
+}
+
+section.PastCampaigns a {
+    font-size: 0.95rem;
+}
+span.raised-amount {
+    display: none;
+}
+
+span.raised-amount-mobile {
+    display: block;
+    font-weight: 800;
+    font-size: 1.5rem;
+    color: #262262
+}
+
+.article-containers {
+    display: block;
+}
+.article1 {
+    width: 100%;
+}
+
+.article2 {
+    width: 100%; 
+}
+
+.horizontal .progress-fill {
+    position: relative;
+    background: #262262;
+    height: 100px;
+    width: 67%;
+    color: #fff;
+    text-align: center;
+    font-weight: 800;
+    font-size: 1.5rem;
+    line-height: 1rem;
+}
+
+.link-styling {
+   width: 60vw;
+}
+
+.logo {
+    width: 150px;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+}
